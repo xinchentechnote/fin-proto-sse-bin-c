@@ -1,7 +1,8 @@
 # fin-proto-sse-bin-c
 
-上交所(step)二进制行情协议 v0.57 的 C11 消息库,基于
-[fin-proto-runtime-bin-c](../fin-proto-runtime-bin-c) 运行时。
+上交所流式二进制协议 v0.57 的 C11 消息库(基于参考文档
+IS122_TDGW_Move_Binary_CV0.57),基于
+[fin-proto-runtime-bin-c](https://github.com/xinchentechnote/fin-proto-runtime-bin-c) 运行时。
 对应 Rust 版本:[fin-proto-sse-bin-rs](https://github.com/xinchentechnote/fin-proto-sse-bin-rs)。
 
 `src/` 下的全部 `.h/.c` 文件由 [fin-protoc](https://github.com/xinchentechnote/fin-protoc)
